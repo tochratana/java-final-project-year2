@@ -1,17 +1,20 @@
 package model;
-
 import lombok.*;
+import java.time.LocalDateTime;
 
 @Data
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 public class ExchangeRequest {
-    private String username;
-    private String password;
-    private String fullName;
-    private String email;
-    private String phone;
+    private Long id;
+    private Long requesterId;
+    private Long providerId;
+    private String requestedSkill;
+    private String offeredSkill;
+    private String requestMessage;
+    private String status; // PENDING, ACCEPTED, REJECTED, COMPLETED, CANCELLED
+    private Boolean requesterConfirmed;
+    private Boolean providerConfirmed;
+    private LocalDateTime createdAt;
 }
