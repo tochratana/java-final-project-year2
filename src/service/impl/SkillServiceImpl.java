@@ -122,5 +122,4 @@ public class SkillServiceImpl implements SkillService {
                 .ownerName(ownerName)
                 .build();
     }
-
 }
