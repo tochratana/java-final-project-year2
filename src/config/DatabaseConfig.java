@@ -26,10 +26,10 @@ public class DatabaseConfig {
             }
 
             // Step 2: Define connection URL
-            String url = "jdbc:postgresql://localhost:5432/skill_exchange_db";
+            String url = "jdbc:postgresql://localhost:5432/skill-exchange-db";
             Properties info = new Properties();
-            info.put("user", "postgres");
-            info.put("password", "your_password");
+            info.put("user", "tochratana");
+            info.put("password", "1234");
 
             try {
                 conn = DriverManager.getConnection(url, info);
