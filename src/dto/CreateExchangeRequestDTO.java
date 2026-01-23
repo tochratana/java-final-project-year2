@@ -5,7 +5,6 @@ import lombok.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-
 public class CreateExchangeRequestDTO {
     private Long providerId;
     private String requestedSkill;
