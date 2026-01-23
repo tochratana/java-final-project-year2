@@ -3,10 +3,12 @@ package model;
 import lombok.*;
 import java.time.LocalDateTime;
 
-@Data
+//@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@Getter
+@Setter
 public class ExchangeRequest {
     private Long id;
     private Long requesterId;

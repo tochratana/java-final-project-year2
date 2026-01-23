@@ -26,7 +26,7 @@ public class DatabaseConfig {
             }
 
             // Step 2: Define connection URL
-            String url = "jdbc:postgresql://localhost:5432/skill-exchange-db";
+            String url = "jdbc:postgresql://localhost:5432/skll-exchange-db";
             Properties info = new Properties();
             info.put("user", "tochratana");
             info.put("password", "1234");
